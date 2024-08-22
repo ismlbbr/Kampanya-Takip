@@ -1,0 +1,24 @@
+/* Stil dosyanızda veya <style> bloğunda */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  tr.normal {
+    background-color: #ffffff; /* Normal durum */
+  }
+  
+  tr.expiring-soon {
+    background-color: #ffdddd; /* Yakın tarihte bitenler için */
+  }
+  
+  tr.expired {
+    background-color: #ffaaaa; /* Geçmiş tarihler için */
+  }
+  
